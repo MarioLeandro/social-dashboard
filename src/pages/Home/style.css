@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 120px 50px 120px;
+    flex-wrap: wrap;
+}
+
+#ov{
+    margin-left: 160px;
+}

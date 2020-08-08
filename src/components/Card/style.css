@@ -1,0 +1,66 @@
+#card{
+    border-top: 4px solid transparent;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.9fr 0.4fr 0.8fr 1fr;
+    padding-top: 20px;
+    margin-top: 15px;
+    justify-items: center;
+    width: 290px;
+    height: 240px;
+    grid-template-areas: "aname ." "fnumber ." "followers ." "l4 .";
+    background-color: hsl(228, 28%, 20%);
+    border-radius: 7px;
+    transition: 0.2s;
+}
+
+.anames{
+    font-size: 12px;
+}
+
+.today{
+    font-size: 12px;
+    color: hsl(163, 72%, 41%);
+}
+
+#follow{
+    color: hsl(228, 34%, 66%);
+}
+#aname{
+    vertical-align: 5px;
+    padding-left: 5px;
+    color: hsl(228, 34%, 66%);
+}
+
+#day{
+    padding-left: 5px;
+}
+
+#l1{
+    grid-area: aname;
+}
+
+#number{
+    grid-area: fnumber;
+}
+
+#follow{
+    font-size: 14px;
+    grid-area: followers;
+}
+
+#l4{
+    grid-area: l4;
+}
+
+.fnumber{
+    font-weight: 1000;
+    font-size: 60px;
+}
+
+#card:hover{
+    background-color: #3a3f54;
+    cursor: pointer;
+    transition: 0.2s;
+
+}

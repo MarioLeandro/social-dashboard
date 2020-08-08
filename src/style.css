@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter;
+    background-color:hsl(230, 17%, 14%);
+    color:hsl(0, 0%, 100%);
+
+}
